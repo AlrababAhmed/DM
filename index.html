@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title> Welcome to DM6032 </title>
+    <title> DM6032 </title>
+        <link rel="stylesheet"href="style.css"/>
   </head>
   <body>
     <header>
-      <link rel="stylesheet" href="styles.css"/>
       <h1> Welcome to DM6032 </h1>
       <p id=p> Tutor info.
 
@@ -19,8 +19,7 @@
 <br>Campus A building 20A, office no.104 </p>
       <hr>
     </header>
-  </body>
-  
+    
 <nav>
   <ul>
     <li><a href="#here">About Me</a></li>
@@ -30,32 +29,53 @@
 </nav>
   <hr>
   
-  <section id="here">
-    <h2></h2>
+  
     <table id= table1
      border="3"cellpadding="20">
       <tr>
         <th>Course Details</th>
-        <th>Class Hours</th>
-      </tr>
+        <th> Class Hours</th>
+</tr>
+      
       <tr>
         <td>DM6032</td>
         <td>2 to 4 pm</td>
-      </tr>
+ </tr>
       
     </table>
+    </section>
+
+<hr>
+    <section id="Contact">
+    <h2> Contact Your tutor </h2>
+    <form id="ContactForm">
+    <label> Your Name <br>
+    <input type="text" id="name" required/>
+    </label><br><br>
+      
+   <label>Your Email<br>
+   <input type="email" id="email" required />
+   </label><br><br>
+
+   <label>Write your inquires<br>
+   <textarea id="message" rows="6" cols="150" required></textarea>
+   </label><br><br>
+
+   <button type="submit">Submit</button>
+   </form>
   </section>
-  <hr>
-  
+
+ <hr>
   <section id= "media">
-    <h2> Video </h2>
+    <h2> Bahrain Polytechnic Tour </h2>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/lHvDIUvhYrU?si=vDc_3IUo9RzwIi-z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </i>
     </section>
- <hr>
 
-  <footer>
+<footer>
     <p> 2025, All rights reserved. </p>
   </footer>
 
+  <script src="script.js"></script>
+</body>
 </html>
