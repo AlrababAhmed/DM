@@ -54,3 +54,9 @@ text-align: center;
   margin: 0 auto;
   border-radius: 10px;
 }
+
+#SubmitBtn img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
