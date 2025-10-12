@@ -2,11 +2,11 @@ h1 {font-family: Times New Roman;
 text-align: center;
 font-size: 25px;
 font- weight: bold;
-color: navy;
+color: brown;
 letter-spacing: 3px;
 border:2px solid black;
 line-height: 48px;
-background-color: lightblue;
+background-color: beige;
 }
 
 ul {disply: flex;
@@ -14,7 +14,7 @@ justify-content: center;
 gap: 50px;
 }
 
-a {color: lightblue;
+a {color: brown;
 font-family: Times New Roman, Arial;
 font-size: 15px;
 letter-spacing: 2px;
@@ -22,12 +22,12 @@ text-decoration: underline;
 font-weight: bold;
 }
 
-#table1 {border: 2px solid black;
-color: navy;
-background-color: lightblue;
+#table1 {border: 2px brown;
+color: brown;
+background-color: beige;
 border-collapse: collapse;
 height: 100px;
-width: 50%;
+width: 50px;
 text-align: center;
 margin: 30px;
 padding: 6px;
@@ -35,12 +35,13 @@ padding: 6px;
 
 h2 {font-family: Times New Roman, Arial;
 font-size: 18px;
-color: lightblue;
+color: brown;
 text-align: center;
 }
 
-#media {max-width: 350px;
-margin: 350px auto;
-padding: 60px;
-height: 50px; 
+#media {
+  width: 350px;
+  height: 400px;
+  margin: 20px;
+  padding: 20px;
 }
