@@ -65,3 +65,8 @@ text-align: center;
   justify-content: center;
   cursor: pointer;
 }
+
+#SubmitBtn img {
+  width: 28px;
+  height: 28px;
+}
